@@ -1,0 +1,17 @@
+# VCS / CI / IDE
+.git
+.gitignore
+.github
+.idea
+*.iml
+.vscode
+
+# Build output (the image builds its own jar)
+target
+
+# Docs, reports, local files
+*.md
+dependency-check-report.*
+Dockerfile
+.dockerignore
+.env*
